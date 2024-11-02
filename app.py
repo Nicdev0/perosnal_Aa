@@ -21,6 +21,9 @@ def calculadora():
 
         elif opcion == '2':
             print(f"Resultado: {num1} - {num2} = {num1 - num2}")
+            
+        elif opcion == '3':
+            print(f"Resultado: {num1} * {num2} = {num1 * num2}")    
     else:
         print("Opción no válida. Intenta de nuevo.")
 
