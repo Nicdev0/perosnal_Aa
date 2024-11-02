@@ -19,7 +19,8 @@ def calculadora():
         if opcion == '1':
             print(f"Resultado: {num1} + {num2} = {num1 + num2}")
 
-        
+        elif opcion == '2':
+            print(f"Resultado: {num1} - {num2} = {num1 - num2}")
     else:
         print("Opción no válida. Intenta de nuevo.")
 
